@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  BackgroundTimer
 //
-//  Created by Hardik Jani on 05/09/14.
+
 //
 //
 

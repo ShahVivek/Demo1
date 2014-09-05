@@ -2,7 +2,7 @@
 //  BackgroundTimerTests.m
 //  BackgroundTimerTests
 //
-//  Created by Hardik Jani on 05/09/14.
+
 //
 //
 
