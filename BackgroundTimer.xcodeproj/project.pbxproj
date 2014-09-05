@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18130E9B19B9BED900880310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130E9A19B9BED900880310 /* Foundation.framework */; };
+		18130E9D19B9BED900880310 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130E9C19B9BED900880310 /* CoreGraphics.framework */; };
+		18130E9F19B9BED900880310 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130E9E19B9BED900880310 /* UIKit.framework */; };
+		18130EA519B9BED900880310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18130EA319B9BED900880310 /* InfoPlist.strings */; };
+		18130EA719B9BED900880310 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130EA619B9BED900880310 /* main.m */; };
+		18130EAB19B9BED900880310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130EAA19B9BED900880310 /* AppDelegate.m */; };
+		18130EAE19B9BED900880310 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18130EAC19B9BED900880310 /* Main.storyboard */; };
+		18130EB119B9BED900880310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130EB019B9BED900880310 /* ViewController.m */; };
+		18130EB319B9BED900880310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18130EB219B9BED900880310 /* Images.xcassets */; };
+		18130EBA19B9BEDA00880310 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130EB919B9BEDA00880310 /* XCTest.framework */; };
+		18130EBB19B9BEDA00880310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130E9A19B9BED900880310 /* Foundation.framework */; };
+		18130EBC19B9BEDA00880310 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18130E9E19B9BED900880310 /* UIKit.framework */; };
+		18130EC419B9BEDA00880310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18130EC219B9BEDA00880310 /* InfoPlist.strings */; };
+		18130EC619B9BEDA00880310 /* BackgroundTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130EC519B9BEDA00880310 /* BackgroundTimerTests.m */; };
+		18130ED219B9BEFA00880310 /* LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130ED119B9BEFA00880310 /* LOG.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18130EBD19B9BEDA00880310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18130E8F19B9BED900880310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18130E9619B9BED900880310;
+			remoteInfo = BackgroundTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18130E9719B9BED900880310 /* BackgroundTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18130E9A19B9BED900880310 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18130E9C19B9BED900880310 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18130E9E19B9BED900880310 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18130EA219B9BED900880310 /* BackgroundTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTimer-Info.plist"; sourceTree = "<group>"; };
+		18130EA419B9BED900880310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18130EA619B9BED900880310 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18130EA819B9BED900880310 /* BackgroundTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BackgroundTimer-Prefix.pch"; sourceTree = "<group>"; };
+		18130EA919B9BED900880310 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18130EAA19B9BED900880310 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18130EAD19B9BED900880310 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18130EAF19B9BED900880310 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18130EB019B9BED900880310 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18130EB219B9BED900880310 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18130EB819B9BEDA00880310 /* BackgroundTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18130EB919B9BEDA00880310 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18130EC119B9BEDA00880310 /* BackgroundTimerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BackgroundTimerTests-Info.plist"; sourceTree = "<group>"; };
+		18130EC319B9BEDA00880310 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18130EC519B9BEDA00880310 /* BackgroundTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTimerTests.m; sourceTree = "<group>"; };
+		18130ED019B9BEFA00880310 /* LOG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOG.h; sourceTree = "<group>"; };
+		18130ED119B9BEFA00880310 /* LOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOG.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18130E9419B9BED900880310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130E9D19B9BED900880310 /* CoreGraphics.framework in Frameworks */,
+				18130E9F19B9BED900880310 /* UIKit.framework in Frameworks */,
+				18130E9B19B9BED900880310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18130EB519B9BEDA00880310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130EBA19B9BEDA00880310 /* XCTest.framework in Frameworks */,
+				18130EBC19B9BEDA00880310 /* UIKit.framework in Frameworks */,
+				18130EBB19B9BEDA00880310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18130E8E19B9BED900880310 = {
+			isa = PBXGroup;
+			children = (
+				18130EA019B9BED900880310 /* BackgroundTimer */,
+				18130EBF19B9BEDA00880310 /* BackgroundTimerTests */,
+				18130E9919B9BED900880310 /* Frameworks */,
+				18130E9819B9BED900880310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18130E9819B9BED900880310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18130E9719B9BED900880310 /* BackgroundTimer.app */,
+				18130EB819B9BEDA00880310 /* BackgroundTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18130E9919B9BED900880310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18130E9A19B9BED900880310 /* Foundation.framework */,
+				18130E9C19B9BED900880310 /* CoreGraphics.framework */,
+				18130E9E19B9BED900880310 /* UIKit.framework */,
+				18130EB919B9BEDA00880310 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18130EA019B9BED900880310 /* BackgroundTimer */ = {
+			isa = PBXGroup;
+			children = (
+				18130ECF19B9BEFA00880310 /* LOG */,
+				18130EA919B9BED900880310 /* AppDelegate.h */,
+				18130EAA19B9BED900880310 /* AppDelegate.m */,
+				18130EAC19B9BED900880310 /* Main.storyboard */,
+				18130EAF19B9BED900880310 /* ViewController.h */,
+				18130EB019B9BED900880310 /* ViewController.m */,
+				18130EB219B9BED900880310 /* Images.xcassets */,
+				18130EA119B9BED900880310 /* Supporting Files */,
+			);
+			path = BackgroundTimer;
+			sourceTree = "<group>";
+		};
+		18130EA119B9BED900880310 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18130EA219B9BED900880310 /* BackgroundTimer-Info.plist */,
+				18130EA319B9BED900880310 /* InfoPlist.strings */,
+				18130EA619B9BED900880310 /* main.m */,
+				18130EA819B9BED900880310 /* BackgroundTimer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18130EBF19B9BEDA00880310 /* BackgroundTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				18130EC519B9BEDA00880310 /* BackgroundTimerTests.m */,
+				18130EC019B9BEDA00880310 /* Supporting Files */,
+			);
+			path = BackgroundTimerTests;
+			sourceTree = "<group>";
+		};
+		18130EC019B9BEDA00880310 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18130EC119B9BEDA00880310 /* BackgroundTimerTests-Info.plist */,
+				18130EC219B9BEDA00880310 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18130ECF19B9BEFA00880310 /* LOG */ = {
+			isa = PBXGroup;
+			children = (
+				18130ED019B9BEFA00880310 /* LOG.h */,
+				18130ED119B9BEFA00880310 /* LOG.m */,
+			);
+			path = LOG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18130E9619B9BED900880310 /* BackgroundTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18130EC919B9BEDA00880310 /* Build configuration list for PBXNativeTarget "BackgroundTimer" */;
+			buildPhases = (
+				18130E9319B9BED900880310 /* Sources */,
+				18130E9419B9BED900880310 /* Frameworks */,
+				18130E9519B9BED900880310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundTimer;
+			productName = BackgroundTimer;
+			productReference = 18130E9719B9BED900880310 /* BackgroundTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18130EB719B9BEDA00880310 /* BackgroundTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18130ECC19B9BEDA00880310 /* Build configuration list for PBXNativeTarget "BackgroundTimerTests" */;
+			buildPhases = (
+				18130EB419B9BEDA00880310 /* Sources */,
+				18130EB519B9BEDA00880310 /* Frameworks */,
+				18130EB619B9BEDA00880310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18130EBE19B9BEDA00880310 /* PBXTargetDependency */,
+			);
+			name = BackgroundTimerTests;
+			productName = BackgroundTimerTests;
+			productReference = 18130EB819B9BEDA00880310 /* BackgroundTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18130E8F19B9BED900880310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					18130EB719B9BEDA00880310 = {
+						TestTargetID = 18130E9619B9BED900880310;
+					};
+				};
+			};
+			buildConfigurationList = 18130E9219B9BED900880310 /* Build configuration list for PBXProject "BackgroundTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18130E8E19B9BED900880310;
+			productRefGroup = 18130E9819B9BED900880310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18130E9619B9BED900880310 /* BackgroundTimer */,
+				18130EB719B9BEDA00880310 /* BackgroundTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18130E9519B9BED900880310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130EB319B9BED900880310 /* Images.xcassets in Resources */,
+				18130EA519B9BED900880310 /* InfoPlist.strings in Resources */,
+				18130EAE19B9BED900880310 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18130EB619B9BEDA00880310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130EC419B9BEDA00880310 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18130E9319B9BED900880310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130EB119B9BED900880310 /* ViewController.m in Sources */,
+				18130EAB19B9BED900880310 /* AppDelegate.m in Sources */,
+				18130ED219B9BEFA00880310 /* LOG.m in Sources */,
+				18130EA719B9BED900880310 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18130EB419B9BEDA00880310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18130EC619B9BEDA00880310 /* BackgroundTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18130EBE19B9BEDA00880310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18130E9619B9BED900880310 /* BackgroundTimer */;
+			targetProxy = 18130EBD19B9BEDA00880310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18130EA319B9BED900880310 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18130EA419B9BED900880310 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18130EAC19B9BED900880310 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18130EAD19B9BED900880310 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18130EC219B9BEDA00880310 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18130EC319B9BEDA00880310 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18130EC719B9BEDA00880310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18130EC819B9BEDA00880310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18130ECA19B9BEDA00880310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTimer/BackgroundTimer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTimer/BackgroundTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18130ECB19B9BEDA00880310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTimer/BackgroundTimer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTimer/BackgroundTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18130ECD19B9BEDA00880310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTimer.app/BackgroundTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTimer/BackgroundTimer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackgroundTimerTests/BackgroundTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18130ECE19B9BEDA00880310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BackgroundTimer.app/BackgroundTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BackgroundTimer/BackgroundTimer-Prefix.pch";
+				INFOPLIST_FILE = "BackgroundTimerTests/BackgroundTimerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18130E9219B9BED900880310 /* Build configuration list for PBXProject "BackgroundTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18130EC719B9BEDA00880310 /* Debug */,
+				18130EC819B9BEDA00880310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18130EC919B9BEDA00880310 /* Build configuration list for PBXNativeTarget "BackgroundTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18130ECA19B9BEDA00880310 /* Debug */,
+				18130ECB19B9BEDA00880310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18130ECC19B9BEDA00880310 /* Build configuration list for PBXNativeTarget "BackgroundTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18130ECD19B9BEDA00880310 /* Debug */,
+				18130ECE19B9BEDA00880310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18130E8F19B9BED900880310 /* Project object */;
+}

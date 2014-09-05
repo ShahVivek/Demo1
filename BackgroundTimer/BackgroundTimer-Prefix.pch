@@ -1,0 +1,24 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#define DOCUMENTS_DIRECTORY [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+#define USERDATA_DIRECTORY [DOCUMENTS_DIRECTORY stringByAppendingPathComponent:@"userdata"]
+#define LOG_DIRECTORY [DOCUMENTS_DIRECTORY stringByAppendingPathComponent:@"Log"]
+#define PATH_MAKER(dir, fileName) [NSString stringWithFormat:@"%@/%@", dir, fileName]
+#define CREATE_DIRECTORY(path) ![[NSFileManager defaultManager] fileExistsAtPath:path]? [[NSFileManager defaultManager] createDirectoryAtPath:path withIntermediateDirectories:NO attributes:nil error:nil] : NO
+#define IS_FILE_EXISTS(path) [[NSFileManager defaultManager] fileExistsAtPath:path]
