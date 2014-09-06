@@ -22,6 +22,8 @@
 		18130EC419B9BEDA00880310 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18130EC219B9BEDA00880310 /* InfoPlist.strings */; };
 		18130EC619B9BEDA00880310 /* BackgroundTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130EC519B9BEDA00880310 /* BackgroundTimerTests.m */; };
 		18130ED219B9BEFA00880310 /* LOG.m in Sources */ = {isa = PBXBuildFile; fileRef = 18130ED119B9BEFA00880310 /* LOG.m */; };
+		18130ED519B9E0CC00880310 /* chat_bg_frd.png in Resources */ = {isa = PBXBuildFile; fileRef = 18130ED319B9E0CC00880310 /* chat_bg_frd.png */; };
+		18130ED619B9E0CC00880310 /* chat_bg_frd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18130ED419B9E0CC00880310 /* chat_bg_frd@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		18130EC519B9BEDA00880310 /* BackgroundTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackgroundTimerTests.m; sourceTree = "<group>"; };
 		18130ED019B9BEFA00880310 /* LOG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOG.h; sourceTree = "<group>"; };
 		18130ED119B9BEFA00880310 /* LOG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOG.m; sourceTree = "<group>"; };
+		18130ED319B9E0CC00880310 /* chat_bg_frd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_bg_frd.png; sourceTree = "<group>"; };
+		18130ED419B9E0CC00880310 /* chat_bg_frd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat_bg_frd@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				18130EAC19B9BED900880310 /* Main.storyboard */,
 				18130EAF19B9BED900880310 /* ViewController.h */,
 				18130EB019B9BED900880310 /* ViewController.m */,
+				18130ED319B9E0CC00880310 /* chat_bg_frd.png */,
+				18130ED419B9E0CC00880310 /* chat_bg_frd@2x.png */,
 				18130EB219B9BED900880310 /* Images.xcassets */,
 				18130EA119B9BED900880310 /* Supporting Files */,
 			);
@@ -240,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18130ED619B9E0CC00880310 /* chat_bg_frd@2x.png in Resources */,
 				18130EB319B9BED900880310 /* Images.xcassets in Resources */,
+				18130ED519B9E0CC00880310 /* chat_bg_frd.png in Resources */,
 				18130EA519B9BED900880310 /* InfoPlist.strings in Resources */,
 				18130EAE19B9BED900880310 /* Main.storyboard in Resources */,
 			);

@@ -13,6 +13,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Check the Log file from DOCUMENTS_DIRECTORY==%@",DOCUMENTS_DIRECTORY);
 }
 
 - (void)didReceiveMemoryWarning
